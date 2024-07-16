@@ -1,0 +1,210 @@
+.middle-sec-foryoudiv-main {
+  font-family: cursive;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  /* border: 1px solid black; */
+  border-radius: 10px;
+  /* margin: 1px; */
+  height: 50px;
+  font-size: 20px;
+  margin: 0;
+  margin-top: 5px;
+}
+
+.middle-sec-foryoudiv-main h1 {
+  /* border: 1px solid black; */
+  height: 100%;
+  width: 20vw;
+  display: flex;
+  border-radius: 10px;
+  align-items: center;
+  justify-content: center;
+}
+
+.middle-sec-foryoudiv-main h1:hover {
+  transition: 0.4s;
+  box-shadow: 0 4px 8px rgba(132, 127, 127, 0.447),
+    /* Bottom shadow */ 0 -4px 8px rgba(133, 129, 129, 0.509),
+    /* Top shadow */ 4px 0 8px rgba(123, 121, 121, 0.621),
+    /* Right shadow */ -4px 0 8px rgba(135, 131, 131, 0.477);
+  background-color: rgb(152, 243, 152);
+  transform: translateY(8px);
+  transition: 0.4s;
+}
+
+.middle-sec-foryoudiv-main h1 {
+  font-size: 18px;
+}
+
+.userhome-main-section {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  height: 100vh;
+  /* border: 3px solid rgb(136, 8, 247); */
+  width: 100%;
+}
+
+.profile-plus-tweet-div {
+  display: flex;
+  gap: 20px;
+  justify-content: space-evenly;
+
+  margin-top: 25px;
+  /* border: 2px solid blue; */
+}
+
+.profile-plus-tweet-div input {
+  border: none;
+  display: flex;
+  gap: 10px;
+  font-family: cursive;
+  /* width: 380px; */
+  /* border-bottom: 1px solid black; */
+  padding-left: 10px;
+}
+
+.profile-div {
+  overflow: hidden;
+  height: 70px;
+  width: 70px;
+  border-radius: 50%;
+  /* border: 1px solid black; */
+  border-radius: 50%;
+}
+
+.profile-div img {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+}
+
+.profile-tweet {
+}
+
+.tweet-input:hover {
+  border: 0.1px solid rgba(0, 0, 0, 0.11);
+}
+
+.icon-plus-post-div {
+  /* border: 0.1px solid rgba(0, 0, 0, 0.11); */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px;
+}
+
+.icon-plus-post-div span {
+  margin-left: 50px;
+}
+.post-tweet-btn {
+  border: none;
+  background-color: rgb(66, 192, 243);
+  height: 30px;
+  width: 60px;
+  border-radius: 15px;
+  font-family: cursive;
+  margin-right: 45px;
+}
+
+/* /////////////////// all tweets -------------------------- */
+
+.mapped-tweets-main-div {
+  border: 0.1px solid rgb(180, 175, 175);
+  height: 170px;
+  width: 100%;
+  margin: 0;
+  font-family: cursive;
+  /* position: relative;
+  bottom: 200px; */
+}
+
+.mapped-tweets-main-div:hover {
+  transition: 0.4s;
+  box-shadow: 0 4px 8px rgba(132, 127, 127, 0.447),
+    /* Bottom shadow */ 0 -4px 8px rgba(133, 129, 129, 0.509),
+    /* Top shadow */ 4px 0 8px rgba(123, 121, 121, 0.621),
+    /* Right shadow */ -4px 0 8px rgba(135, 131, 131, 0.477);
+
+  transform: translateX(-3px);
+  transition: 0.4s;
+}
+
+.profile-plus-all-otherinfo {
+  display: flex;
+  /* border: 5px solid rgb(71, 255, 151); */
+  height: 50%;
+  padding: 10px;
+}
+
+.img-divs {
+  height: 50px;
+  width: 50px;
+  overflow: hidden;
+  border: 1px solid black;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.img-divs img {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+}
+
+.name-usernme-time-main-div {
+  display: flex;
+  width: 110%;
+  align-items: center;
+  justify-content: space-around;
+}
+.name-usernme-time-main-div h4 {
+  font-size: 14px;
+  font-family: sans-serif;
+  font-weight: 1000;
+  color: #1875ee;
+}
+.name-usernme-time-main-div h5 {
+  font-size: 11px;
+  color: red;
+}
+
+.name-usernme-time-main-div h6 {
+  font-size: 11px;
+}
+
+.other-divs {
+  /* border: 5px solid rgb(230, 139, 4); */
+  width: 70%;
+  height: 15vh;
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  justify-content: center;
+}
+
+.name-usernme-time-main-div {
+  /* border: 5px solid rgb(143, 4, 230); */
+}
+
+.this-is-tweet {
+  /* border: 5px solid rgb(143, 4, 230); */
+  position: relative;
+  left: 15px;
+  width: 24vw;
+  /* text-align: center; */
+}
+
+.all-three-icons {
+  display: flex;
+  /* border: 1px solid black; */
+  justify-content: space-around;
+}
+
+/* //// ------------laastsh section --------------////// */
+
+.all-logedin-user-main-sec{
+  position: relative;
+  bottom: 250px;
+}

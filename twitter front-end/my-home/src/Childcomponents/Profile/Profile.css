@@ -1,0 +1,78 @@
+.profile-main-sec {
+  /* border: 5px solid rgb(139, 231, 63); */
+  width: 100%;
+  height: 100vh;
+}
+
+.bg-profile-template {
+  /* border: 5px solid rgb(255, 98, 50); */
+  height: 200px;
+  width: 100%;
+
+  object-fit: fill;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1),
+    /* Bottom shadow */ 0 -4px 8px rgba(0, 0, 0, 0.1),
+    /* Top shadow */ 4px 0 8px rgba(0, 0, 0, 0.607),
+    /* Right shadow */ -4px 0 8px rgba(0, 0, 0, 0.1);
+}
+
+.profile-edit-div {
+  display: flex;
+  justify-content: space-between;
+  /* border: 5px solid rgb(50, 135, 255); */
+}
+.profile-edit-div h1 {
+  margin-top: 30px;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 0.1px solid #817f7f92;
+  font-size: 15px;
+  font-family: cursive;
+  height: 30px;
+  width: 120px;
+  margin-right: 20px;
+}
+.profile-pic-div {
+  border: 1px solid rgb(46, 46, 44);
+  height: 90px;
+  width: 90px;
+  overflow: hidden;
+  position: relative;
+  bottom: 25px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-left: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.281),
+    /* Bottom shadow */ 0 -4px 8px rgba(0, 0, 0, 0.308),
+    /* Top shadow */ 4px 0 8px rgba(0, 0, 0, 0.395),
+    /* Right shadow */ -4px 0 8px rgba(0, 0, 0, 0.381);
+}
+
+.profile-pic {
+  height: 100%;
+  width: 100%;
+  z-index: 2;
+  object-fit: cover;
+}
+
+.user-bio-main-div {
+  position: relative;
+  bottom: 20px;
+  font-family: cursive;
+  left: 20px;
+}
+.user-bio-main-div h1 {
+  margin: 0;
+  font-size: 17px;
+}
+
+.hrline {
+  margin: 5px;
+  height: 1px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.281),
+    /* Bottom shadow */ 0 -4px 8px rgba(0, 0, 0, 0.308),
+    /* Top shadow */ 4px 0 8px rgba(0, 0, 0, 0.395),
+    /* Right shadow */ -4px 0 8px rgba(0, 0, 0, 0.381);
+}

@@ -1,0 +1,121 @@
+.home-main-section {
+  display: flex;
+  /* border: 1px solid rgb(32, 229, 45); */
+  height: 100vh;
+  gap: 20px;
+}
+
+.Left-section {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 20px;
+  width: 25vw;
+  font-family: sans-serif;
+  font-weight: 800;
+  border: 0.1px solid rgb(141, 133, 133);
+}
+
+.Left-section div:hover {
+  transition: 0.4s;
+  transform: translateZ(-10px);
+  border: 0.1px solid rgb(192, 176, 176);
+  box-shadow: 0 4px 8px rgba(132, 127, 127, 0.447),
+    /* Bottom shadow */ 0 -4px 8px rgba(133, 129, 129, 0.509),
+    /* Top shadow */ 4px 0 8px rgba(123, 121, 121, 0.621),
+    /* Right shadow */ -4px 0 8px rgba(135, 131, 131, 0.477);
+    border-radius: 8px;
+    padding-left: 10px;
+}
+
+.middle-section {
+  width: 50vw;
+  /* border: 1px solid rgb(119, 116, 116); */
+  /* background-color: rgb(255, 185, 127); */
+  box-shadow: 0 4px 8px rgba(132, 127, 127, 0.447),
+    /* Bottom shadow */ 0 -4px 8px rgba(133, 129, 129, 0.509),
+    /* Top shadow */ 4px 0 8px rgba(123, 121, 121, 0.621),
+    /* Right shadow */ -4px 0 8px rgba(135, 131, 131, 0.477);
+  position: relative;
+  bottom: 15px;
+  height: 500vh;
+}
+.right-section {
+  width: 25vw;
+  /* border: 0.1px solid rgb(141, 133, 133); */
+}
+
+.right-section-main-div {
+  /* height: 500px; */
+
+  font-family: cursive;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.rightsec-mapped-data {
+  /* height: 500px; */
+  border: 0.1px solid rgba(153, 157, 153, 0.906);
+  width: 100%;
+  display: flex;
+  /* background-color: #f5f0e5; */
+  height: 100px;
+  border-radius: 8px;
+  justify-content: space-around;
+  align-items: center;
+}
+.rightsec-mapped-data:hover {
+  box-shadow: 0 4px 8px rgba(132, 127, 127, 0.447),
+  /* Bottom shadow */ 0 -4px 8px rgba(133, 129, 129, 0.509),
+  /* Top shadow */ 4px 0 8px rgba(123, 121, 121, 0.621),
+  /* Right shadow */ -4px 0 8px rgba(135, 131, 131, 0.477);
+
+  transform: translateY(-5px);
+  transition: 0.4s;
+}
+.maped-profile-pic-div {
+  height: 50px;
+  width: 50px;
+  border: 1px solid rgb(114, 107, 107);
+  border-radius: 50%;
+  overflow: hidden;
+  object-fit: cover;
+}
+
+.maped-profile-pic-div img {
+  height: 100%;
+  width: 100%;
+  object-fit: fill;
+
+}
+
+.name-plus-username-div {
+  /* border: 1px solid black; */
+  width: 125px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.name-plus-username-div h6{
+  font-size: 11px;
+  margin: 0;
+  
+}
+
+.maped-follow-btn{
+  border: none;
+  background-color: rgba(0, 0, 0, 0.909);
+  color: aliceblue;
+  width: 45px;
+  font-size: 10px;
+  height: 23px;
+  border-radius: 10px;
+}
+
+
+.active {
+  background-color: aquamarine;
+}
